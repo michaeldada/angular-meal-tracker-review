@@ -47,7 +47,7 @@ gulp.task('ts', ['tsClean'], shell.task([
 
 ////////////////////// BOWER //////////////////////
 // when adding a new bower depndency:
-// stop the server 
+// stop the server
 // always use the `bower install --save` flag.
 // run `gulp bower` to build vendor files
 // restart server.
@@ -79,7 +79,7 @@ gulp.task('bower', ['jsBower', 'cssBower']);
 
 gulp.task('sassBuild', function() {
   return gulp.src(['resources/styles/*'])
-    .pipe(sourcemaps.init()) 
+    .pipe(sourcemaps.init())
     .pipe(sass())
     .pipe(sourcemaps.write())
     .pipe(gulp.dest('./build/css'));
@@ -124,19 +124,3 @@ gulp.task('build', ['ts'], function(){
   gulp.start('bower');
   gulp.start('sassBuild');
 });
-
-////////////////////// SETUP NOTES //////////////////////
-
-/*
-- clone repo
-- npm install
-- bower install 
-- install globals if needed (gulp, bower, sass, typescript, typescript packages.)
-  - npm install gulp -g
-  - npm install bower -g 
-  - gem install sass
-  - npm install typescript -g
-  - apm install atom-typescript
-- gulp build
-- gulp serve
-*/

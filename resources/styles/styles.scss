@@ -4,6 +4,10 @@ h1 {
 	justify-content: center;
 }
 
+body {
+	display: flex;
+	justify-content: center;
+}
 
 
 .add-button {
@@ -11,10 +15,10 @@ h1 {
 	padding: 8px 0 8px 0;
 }
 
-.filter{
+.filter {
 	margin: 20px 0 20px 0;
 }
-.meal-details{
+.meal-details {
 	color: #bde0c1;
 	display: none;
 }
