@@ -4,9 +4,6 @@ h1 {
 	justify-content: center;
 }
 
-.selected {
-  color: #22bdf0;
-}
 
 
 .add-button {
@@ -16,4 +13,13 @@ h1 {
 
 .filter{
 	margin: 20px 0 20px 0;
+}
+.meal-details{
+	color: #bde0c1;
+	display: none;
+}
+
+.selected .meal-details {
+  color: #22bdf0;
+	display:block;
 }
