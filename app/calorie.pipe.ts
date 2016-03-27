@@ -14,7 +14,7 @@ export class CaloriePipe implements PipeTransform {
       });
     } else if (desiredCalorieState === "healthy") {
       return input.filter((meal) => {
-        return meal.calories < 300;
+        return meal.calories <= 300;
       });
     } else {
       return input;
