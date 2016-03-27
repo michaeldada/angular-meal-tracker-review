@@ -6,7 +6,7 @@
 
 ## Description
 
-_This site allows for a user to track their meals throughout the day.  They can add meals, with description and calorie count, and also go back and edit those meals if need be.  They can also sort their meals between healthy and unhealthy labels, where a healthy meal is anything below 300 calories. _
+_This site allows for a user to track their meals throughout the day.  They can add meals, with description and calorie count, and also go back and edit those meals if need be.  They can also sort their meals between healthy and unhealthy labels, where a healthy meal is anything below 300 calories._
 
 ## Setup
 
